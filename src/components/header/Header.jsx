@@ -75,7 +75,7 @@ const Header = () => {
       <ContentWrapper>
         {/* logo */}
 
-        <div className="logo">
+        <div className="logo" onClick={()=>navigate(`/`)}>
           <img src={logo} alt="" />
         </div>
 
